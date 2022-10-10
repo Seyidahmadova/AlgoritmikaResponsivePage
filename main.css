@@ -1,0 +1,175 @@
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 101.38%;
+  color: #000000;
+  margin-top: 60px;
+  margin-left: 124px;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.section1 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 36px */
+  color: #000000;
+  margin-left: 124px;
+  margin-right: 190px;
+  margin-top: 15px;
+}
+
+.section1 img {
+  margin-right: 150px;
+}
+
+.section2 {
+  margin-top: 34px;
+  margin-left: 124px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 190px;
+}
+
+.first {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  /* or 32px */
+  margin-top: 20px;
+
+  color: #000000;
+}
+
+.second {
+  width: 150px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 23px */
+  margin-top: 20px;
+
+  color: #000000;
+}
+
+@media (max-width: 1440px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .section1 p {
+    font-size: 14px;
+  }
+
+  .section1 img {
+    width: 180px;
+    height: 180px;
+  }
+  .first {
+    font-size: 15px;
+  }
+
+  .second {
+    font-size: 11px;
+  }
+  
+}
+
+@media (max-width:1000px){
+  .section2 img{
+    display: none;
+  }
+}
+
+@media (max-width: 943px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .section1 p {
+    font-size: 14px;
+    margin-right: 50px;
+  }
+
+  .section1 img {
+    width: 180px;
+    height: 180px;
+  }
+  .first {
+    font-size: 15px;
+  }
+
+  .second {
+    font-size: 11px;
+  }
+
+  .section2 img{
+    display: none;
+  }
+  
+}
+
+
+
+@media (max-width: 825px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  .section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .section1 p {
+    font-size: 12px;
+  }
+
+  .section1 img {
+    width: 145px;
+    height: 145px;
+    margin-left: 50%;
+  }
+
+  .section2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .first {
+    font-size: 12px;
+    width: 86px;
+  }
+
+  .second {
+    font-size: 10px;
+    width: 86px;
+  }
+
+  .section2 img{
+    display: none;
+  }
+}
